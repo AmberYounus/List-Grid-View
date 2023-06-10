@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List Grid View</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <h2 id="heading">List View or Grid View</h2>
+    <div class="container">
+      <button class="btn" onclick="listView()">
+        <i class="fa fa-bars"></i> List
+      </button>
+      <button class="btn active" onclick="gridView()">
+        <i class="fa fas fa-th-large"></i>  Grid
+      </button>
+    </div>
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>Column 1</h2>
+        <p>List View</p>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        <h2>Column 2</h2>
+        <p>Grid View</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column" style="background-color:#ccc;">
+        <h2>Column 3</h2>
+        <p>List View</p>
+      </div>
+      <div class="column" style="background-color:#ddd;">
+        <h2>Column 4</h2>
+        <p>Grid View</p>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
